@@ -1,4 +1,9 @@
 {
     "name": "hexlet/code",
-    "require": {}
+    "description": "Hexlet php training project",
+    "require": {},
+    "license": "MIT",
+    "bin": [
+        "bin/brain-games"
+      ]
 }
