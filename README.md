@@ -3,3 +3,6 @@
 
 ### Codeclimate Maintainability Badge
 [![Maintainability](https://api.codeclimate.com/v1/badges/dc4c5be80f80912981d7/maintainability)](https://codeclimate.com/github/LexAeterna731/php-project-45/maintainability)
+
+### Demo
+[![asciicast](https://asciinema.org/a/krNtZtwjFRxNTzRfprhOW9IZ9.svg)](https://asciinema.org/a/krNtZtwjFRxNTzRfprhOW9IZ9)
