@@ -10,8 +10,8 @@ function startCalc()
 
     $questionAnswerPairs = [];
     for ($i = 0, $numberOfQuestions = 3; $i < $numberOfQuestions; $i += 1) {
-        $firstOperand = rand(1, 1000);
-        $secondOperand = rand(1, 1000);
+        $firstOperand = rand(1, 100);
+        $secondOperand = rand(1, 100);
         $operationId = rand(1, 3);
         switch ($operationId) {
             case 1:
