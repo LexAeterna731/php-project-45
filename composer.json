@@ -6,8 +6,8 @@
     },
     "autoload": {
         "files": [
-            "src/Games.php",
-            "src/Even.php"
+            "src/Engine.php",
+            "src/Games/Even.php"
         ]
     },
     "license": "MIT",
