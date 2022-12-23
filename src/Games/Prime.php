@@ -6,7 +6,7 @@ use function Brain\Games\Engine\startGame;
 
 function startPrime()
 {
-    $welcomeMessage = "Answer \"yes\" if given number is prime. Otherwise answer \"no\".";
+    $welcomeMessage = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
     $questionAnswerPairs = [];
     for ($i = 0, $numberOfQuestions = 3; $i < $numberOfQuestions; $i += 1) {
