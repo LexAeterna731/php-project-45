@@ -12,14 +12,14 @@ function startGame(string $welcomeMessage, array $questionAnswerPairs)
     line("Hello, %s!", $name);
     line($welcomeMessage);
 
-    for ($i = 0, $questionsCount = count($questionAnswerPairs); $i < $questionsCount; $i += 1) {
-        $question = $questionAnswerPairs[$i][0];
-        $answer = $questionAnswerPairs[$i][1];
+    $passed = true;
+    foreach ($questionAnswerPairs as [$question, $answer]) {
         line("Question: %s", $question);
         $userAnswer = prompt("Your answer");
         if ($userAnswer !== $answer) {
             line("'%s' is wrong answer ;(. Correct answer was '%s'.", $userAnswer, $answer);
             line("Let's try again, %s!", $name);
+            $passed = false;
 
             break;
         } else {
@@ -27,7 +27,7 @@ function startGame(string $welcomeMessage, array $questionAnswerPairs)
         }
     }
 
-    if ($i === $questionsCount) {
+    if ($passed) {
         line("Congratulations, %s!", $name);
     }
 }
