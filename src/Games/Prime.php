@@ -13,7 +13,7 @@ function startPrime()
         $number = rand(1, 300);
         $sqrtNumber = floor(sqrt($number));
         $isPrime = true;
-        for ($j = 2; $j < $sqrtNumber && $isPrime; $j += 1) {
+        for ($j = 2; $j <= $sqrtNumber && $isPrime; $j += 1) {
             $isPrime = $number % $j !== 0 ? true : false;
         }
 
