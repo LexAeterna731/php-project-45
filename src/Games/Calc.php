@@ -27,7 +27,7 @@ function startCalc()
                 $answer = $firstOperand * $secondOperand;
                 break;
         }
-        $questionAnswerPairs[] = [$question, $answer];
+        $questionAnswerPairs[] = [$question, (string) $answer];
     }
 
     startGame($welcomeMessage, $questionAnswerPairs);
