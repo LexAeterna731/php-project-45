@@ -14,3 +14,6 @@
 
 #### Run brain-gcd
 [![asciicast](https://asciinema.org/a/enOrxVwkVCIIz4noI5CkZbVMG.svg)](https://asciinema.org/a/enOrxVwkVCIIz4noI5CkZbVMG)
+
+#### Run brain-progression
+[![asciicast](https://asciinema.org/a/n4kv4gWLw2U7MpTWYkHtnNSq7.svg)](https://asciinema.org/a/n4kv4gWLw2U7MpTWYkHtnNSq7)
