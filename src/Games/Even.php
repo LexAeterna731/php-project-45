@@ -10,7 +10,7 @@ function startEven()
 
     $questionAnswerPairs = [];
     for ($i = 0, $numberOfQuestions = 3; $i < $numberOfQuestions; $i += 1) {
-        $question = rand();
+        $question = rand(1, 1000);
         $answer = $question % 2 === 0 ? "yes" : "no";
         $questionAnswerPairs[] = [$question, $answer];
     }
