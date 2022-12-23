@@ -10,11 +10,11 @@ function startPrime()
 
     $questionAnswerPairs = [];
     for ($i = 0, $numberOfQuestions = 3; $i < $numberOfQuestions; $i += 1) {
-        $number = rand(1, 1000);
+        $number = rand(1, 300);
         $sqrtNumber = floor(sqrt($number));
         $isPrime = true;
-        for ($j = 2; $j > $sqrtNumber && $isPrime; $j += 1) {
-            $isPrime = $number % 0 !== 0 ? true : false;
+        for ($j = 2; $j < $sqrtNumber && $isPrime; $j += 1) {
+            $isPrime = $number % $j !== 0 ? true : false;
         }
 
         $question = $number;
